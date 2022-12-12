@@ -12,7 +12,7 @@ int perimeter_of_octagon(int length) {
 
     // Process
     if (length < 0)
-        return -1 ;
+        return -1;
     else
         perimeter = length * 8;
 
