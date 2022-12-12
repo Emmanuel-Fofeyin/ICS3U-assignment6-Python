@@ -6,14 +6,13 @@
 
 #include <iostream>
 
-int PerimeterCalculation(int length) {
+int perimeter_of_octagon(int length) {
     // This function finds the perimeter of a octagon
     float perimeter;
 
     // Process
     if (length < 0)
-        perimeter = -1;
-        return perimeter;
+        return -1 ;
     else
         perimeter = length * 8;
 
