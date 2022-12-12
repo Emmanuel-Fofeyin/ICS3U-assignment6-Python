@@ -7,14 +7,15 @@
 #include <iostream>
 
 int PerimeterCalculation(int length) {
-    // This function finds the perimeter of a pentagon
-    int perimeter;
+    // This function finds the perimeter of a octagon
+    float perimeter;
 
     // Process
     if (length < 0)
-        return -1;
+        perimeter = -1;
+        return perimeter;
     else
-        perimeter = length * 5;
+        perimeter = length * 8;
 
     return perimeter;
 }
